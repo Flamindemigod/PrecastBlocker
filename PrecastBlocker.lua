@@ -1,3 +1,4 @@
+PrecastBlocker = PrecastBlocker or {}
 local r = PrecastBlocker
 local EM = GetEventManager()
 local SB = LibSkillBlocker
