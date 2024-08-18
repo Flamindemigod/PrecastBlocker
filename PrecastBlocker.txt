@@ -1,0 +1,11 @@
+## Title: Precast Blocker
+## Description: Blocks you from using specific skills before they end
+## Author: |cFFA500FlaminDemigod|r
+## APIVersion: 100035
+## SavedVariables: PrecastBlockerVars
+## DependsOn: LibAddonMenu-2.0 LibSkillBlocker
+## Version: 1.0.0
+## AddOnVersion: 110
+
+PrecastBlocker.lua
+PrecastBlockerMenu.lua
