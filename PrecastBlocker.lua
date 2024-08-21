@@ -6,14 +6,14 @@ r.name = "PrecastBlocker"
 r.version = "1.0.0"
 r.variableVersion = 1
 
-local TYPE_BACKLASH = 0 -- TEMPLAR BACKLASH                                                                
-local TYPE_SCORCH = 1 -- WARDEN SHALKS                                                                     
+local TYPE_BACKLASH = 0 -- TEMPLAR BACKLASH                                                          
+local TYPE_SCORCH = 1 -- WARDEN SHALKS 
 local TYPE_DAEDRIC = 2 -- SORC PREY
 r.defaults = {
     ["enabled"] = true,
     ["blockInPvP"] = true,
     ["abilities"] = {
-        -- Templar Abilites                                                                                
+        -- Templar Abilites 
         [TYPE_BACKLASH] = {
             types = {[21761] = {}, [21765] = {}, [21763] = {}},
             name = "Backlash",
